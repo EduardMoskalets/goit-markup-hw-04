@@ -68,6 +68,16 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
+.first-li:hover::after {
+content:"";
+display: block;
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background: #404bbf;
+margin-top: auto;
+}
+
 .ul-contacts-header {
     display: flex;
     gap: 40px;
@@ -105,7 +115,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 padding-top: 24px;
 padding-bottom: 24px;
-
 }
 
 .nav-header:hover,
@@ -146,7 +155,16 @@ padding-bottom: 24px;
 .first-section {
 background-color: #2e2f42;
 padding: 188px 0;
+
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)),
+ url(../images/Section-title/background-images-title-section.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
+
 .title-effective-solution {
 font-family: "Roboto", sans-serif;
 font-size: 56px;
@@ -219,6 +237,10 @@ gap: 24px;
 
 .li-our-benefits {
 width: calc((100% - 72px) / 4);
+}
+
+.icon-our-benefits {
+
 }
 
 .title-our-benefits {
