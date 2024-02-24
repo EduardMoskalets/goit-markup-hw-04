@@ -73,7 +73,7 @@ padding-bottom: 24px;
 
 .first-li {
 position: relative;
-color: #404bbf;
+color: #404bbf; 
 }
 
 .first-li::after {
