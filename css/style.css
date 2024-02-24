@@ -68,21 +68,10 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
-.first-li:hover::after {
-content:"";
-display: block;
-border-radius: 2px;
-width: 48px;
-height: 4px;
-background: #404bbf;
-margin-top: auto;
-}
-
 .ul-contacts-header {
-    display: flex;
-    gap: 40px;
+display: flex;
+gap: 40px;
 }
-
 
 .part-black {
 font-family: "Raleway", sans-serif;
