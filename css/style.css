@@ -1,0 +1,411 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+/* ------------------------------------Header ----------------------------*/ 
+
+.header-class {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+display: flex;
+align-items: center;
+}
+
+.ul-nav-header {
+display: flex;
+gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.ul-contacts-header {
+    display: flex;
+    gap: 40px;
+}
+
+
+.part-black {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+
+margin-right: 76px;
+}
+
+.nav-header {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+
+.nav-header:hover,
+.nav-header:focus {
+    color: #404bbf;
+}
+
+.address-style {
+    font-style:normal;
+    margin-left: auto;
+    
+}
+
+ .contacts {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
+}
+
+
+/* ------------------------------------/Header ---------------------------------*/
+
+
+/* -------------------------------------main ---------------------------------------*/
+/* ---------------------------------title section----------------------------------- */
+
+.title-section-container {
+
+}
+
+.first-section {
+background-color: #2e2f42;
+padding: 188px 0;
+}
+.title-effective-solution {
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #fff;
+
+
+max-width: 496px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 48px;
+}
+
+.button-order { 
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+
+border-radius: 4px;
+border: none;
+min-width: 169px;
+height: 56px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+display: block;
+margin: auto;
+}
+
+.button-order:hover,
+.button-order:focus {
+background: #404bbf;
+}
+
+/* ---------------------------------/title section----------------------------------- */
+
+/* ----------------------------------Our Benefits------------------------------------*/
+
+
+.section-our-benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+
+.ul-our-benefits {
+display: flex;
+gap: 24px;
+}
+
+.li-our-benefits {
+width: calc((100% - 72px) / 4);
+}
+
+.title-our-benefits {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+    
+}
+
+.text-our-benefits {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ----------------------------------/Our Benefits------------------------------------*/
+
+/* ----------------------------------Our Team------------------------------------*/
+
+.our-team-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-our-team {
+    display: flex;
+    gap: 24px;
+    border-radius: 0 0 4px 4px;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.backcolor-photo {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+
+.div-nick-name {
+padding: 32px 0;
+
+}
+
+
+.text-our-team {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 72px;
+}
+
+.name-our-team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.proffesion {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+/* ----------------------------------/Our Team------------------------------------*/
+
+/* ----------------------------------Our Portfolio------------------------------------*/
+
+
+.section-our-porfolio {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.our-portfolio-container {
+
+}
+
+.ul-our-portfolio {
+display: flex;
+flex-wrap: wrap;
+row-gap: 48px;
+column-gap: 24px;
+}
+
+.li-our-porfolio {
+width: calc((100% - 48px) / 3);
+}
+
+.img-our-portfolio {
+
+}
+
+.div-name-proffesion {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
+}
+
+.title-our-portfolio {
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+
+margin-bottom: 72px;
+}
+
+.name-app {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+margin-bottom: 8px;
+}
+
+.about-app {
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ----------------------------------/Our Portfolio------------------------------------*/
+
+/* ---------------------------------- Footer ------------------------------------*/
+
+
+.footer-container {
+
+}
+
+.down-logo {
+margin-bottom: 16px;
+display: inline-block;
+}
+
+.footer {
+background-color: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.part-white{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd
+}
+
+.text-footer {
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+
+max-width: 264px;
+height: 72px;
+}
+
+/* ---------------------------------- /Footer ------------------------------------*/
