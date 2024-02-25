@@ -268,47 +268,50 @@ margin-bottom: 8px;
 }
 
 .title-our-benefits {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 
-    margin-bottom: 8px;
+margin-bottom: 8px;
     
 }
 
 .text-our-benefits {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 /* ----------------------------------/Our Benefits------------------------------------*/
 
 /* ----------------------------------Our Team------------------------------------*/
 
 .our-team-container {
-    flex-direction: column;
-    align-items: center;
+flex-direction: column;
+align-items: center;
 }
 
 .ul-our-team {
-    display: flex;
-    gap: 24px;
-    border-radius: 0 0 4px 4px;
+display: flex;
+gap: 24px;
+border-radius: 0 0 4px 4px;
 }
 
 .our-team {
-    background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .backcolor-photo {
-    background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
+background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16),
+0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .div-nick-name {
