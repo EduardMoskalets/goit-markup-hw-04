@@ -312,42 +312,44 @@ border-radius: 0 0 4px 4px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 0px 1px 1px rgba(46, 47, 66, 0.16),
 0px 2px 1px rgba(46, 47, 66, 0.08);
+max-width: ;
 }
 
 .div-nick-name {
-padding: 32px 0;
-
+padding: 32px 0px;
 }
 
-
 .text-our-team {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
 
-    margin-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .name-our-team {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-align: center;
+margin-bottom: 8px;
+}
+
+.div-icon-ourteam {
+padding: 32px 0px;
 }
 
 .ul-icon-ourteam {
 display: flex;
 justify-content: center;
 gap: 24px;
-
 }
 
 .first-li-ourteam {
@@ -363,16 +365,23 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+}
 
+.li-a-our-team:hover,
+.li-a-our-team:focus {
+background-color: #404bbf;
+}
 
+.icon-ourteam {
+fill: #f4f4fd;
 }
 
 .proffesion {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-align: center;
 }
 
 /* ----------------------------------/Our Team------------------------------------*/
