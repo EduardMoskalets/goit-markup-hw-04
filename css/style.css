@@ -312,7 +312,7 @@ border-radius: 0 0 4px 4px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 0px 1px 1px rgba(46, 47, 66, 0.16),
 0px 2px 1px rgba(46, 47, 66, 0.08);
-max-width: ;
+
 }
 
 .div-nick-name {
@@ -418,7 +418,6 @@ box-shadow:
 0px 1px 6px rgba(46, 47, 66, 0.08),
 0px 1px 1px rgba(46, 47, 66, 0.16),
 0px 2px 1px rgba(46, 47, 66, 0.08);
-
 }
 
 .li-our-porfolio:hover .p-img-our-portfolio{
@@ -488,7 +487,13 @@ color: #434455;
 
 
 .footer-container {
+display: flex;
+align-items: baseline;
+margin-right: 120px;
+}
 
+.div-logo-footer {
+margin-right: 120px;
 }
 
 .down-logo {
@@ -520,6 +525,35 @@ color: #f4f4fd;
 
 max-width: 264px;
 height: 72px;
+}
+
+.p-social {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
+.div-icon-footer {
+
+}
+
+.ul-footer {
+
+}
+
+.li-footer {
+
+}
+
+.link-footer {
+
+}
+
+.social-svg-footer {
+
 }
 
 /* ---------------------------------- /Footer ------------------------------------*/
