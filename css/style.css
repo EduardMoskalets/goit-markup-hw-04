@@ -489,7 +489,6 @@ color: #434455;
 .footer-container {
 display: flex;
 align-items: baseline;
-margin-right: 120px;
 }
 
 .div-logo-footer {
@@ -547,8 +546,8 @@ gap: 16px;
 }
 
 .li-footer {
-width: 40px;
-height: 40px;
+/*width: 40px;
+height: 40px;*/
 }
 
 .link-footer {
@@ -559,6 +558,8 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+width: 40px;
+height: 40px;
 }
 
 .social-svg-footer {
