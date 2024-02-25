@@ -423,7 +423,7 @@ box-shadow:
 transform: translateY(0%);
 }
 
-.div-img-our-portfolio {
+.div-overlay-our-portfolio {
 position: relative;
 overflow: hidden;
 }
@@ -437,6 +437,7 @@ color: #f4f4fd;
 padding: 40px 32px;
 background-color: #4d5ae5;
 height: 100%;
+width: 100%;
 
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
