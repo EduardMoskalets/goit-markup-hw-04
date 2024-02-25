@@ -365,6 +365,8 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .li-a-our-team:hover,
