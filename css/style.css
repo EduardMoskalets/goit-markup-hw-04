@@ -343,6 +343,26 @@ padding: 32px 0;
     margin-bottom: 8px;
 }
 
+.ul-icon-ourteam {
+display: flex;
+justify-content: center;
+gap: 24px;
+
+}
+
+.first-li-ourteam {
+width: 40px;
+height: 40px;
+}
+
+.li-a-our-team {
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+
+}
+
 .proffesion {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
