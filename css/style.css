@@ -543,6 +543,7 @@ margin-bottom: 16px;
 
 .ul-footer {
 display: flex;
+gap: 16px;
 }
 
 .li-footer {
@@ -551,7 +552,8 @@ height: 40px;
 }
 
 .link-footer {
-
+width: 100%;
+height: 100%;
 }
 
 .social-svg-footer {
